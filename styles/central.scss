@@ -1,0 +1,26 @@
+/* CONFIGS */
+@import 'styles/configs/reset.scss';
+@import 'styles/configs/fonts.scss';
+@import 'styles/configs/variables.scss';
+@import 'styles/configs/mixins.scss';
+@import 'styles/configs/typography.scss';
+@import 'styles/configs/global.scss';
+
+/* ATOMS */
+@import 'components/01-atoms/dial/dial.scss';
+@import 'components/01-atoms/button/button.scss';
+@import 'components/01-atoms/heading/heading.scss';
+@import 'components/01-atoms/paragraph/paragraph.scss';
+@import 'components/01-atoms/graphic/graphic.scss';
+
+/* MOLECULES */
+@import 'components/02-molecules/tag/tag';
+@import 'components/02-molecules/error-message/error-message';
+
+/* LAYOUTS  */
+@import 'components/04-layouts/card/card';
+
+
+/* PAGES */
+@import 'components/05-pages/rating/rating';
+@import 'components/05-pages/thanks/thanks';

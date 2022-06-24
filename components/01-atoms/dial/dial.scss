@@ -1,0 +1,21 @@
+.dial {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: none;
+  background-color: $dark-blue;
+  color: $medium-grey;
+  transition: all 0.1s ease;
+  line-height: 1;
+  
+  &:hover {
+    background-color: $orange;
+    color: $pure-white;
+  }
+
+  &--active {
+    background-color: $medium-grey !important;
+    color: $pure-white;
+  }
+
+}

@@ -1,0 +1,56 @@
+@font-face {
+	font-family: 'Overpass';
+	src:
+		local('fonts/overpass'), url('/assets/fonts/overpass/overpass-thin.ttf') format('ttf'),
+		local('fonts/overpass'), url('/assets/fonts/overpass/overpass-thin.woff2') format('woff2'),
+		local('fonts/overpass'), url('/assets/fonts/overpass/overpass-thin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-display: block;
+}
+
+@font-face {
+	font-family: 'Overpass';
+	src:
+		local('fonts/overpass'), url('/assets/fonts/overpass/overpass-light.ttf') format('ttf'),
+		local('fonts/overpass'), url('/assets/fonts/overpass/overpass-light.woff2') format('woff2'),
+		local('fonts/overpass'), url('/assets/fonts/overpass/overpass-light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: block;
+}
+
+@font-face {
+	font-family: 'Overpass';
+	src:
+		local('fonts/overpass'), url('/assets/fonts/overpass/overpass-medium.ttf') format('ttf'),
+		local('fonts/overpass'), url('/assets/fonts/overpass/overpass-medium.woff2') format('woff2'),
+		local('fonts/overpass'), url('/assets/fonts/overpass/overpass-medium.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: block;
+}
+
+@font-face {
+	font-family: 'Overpass';
+	src:
+		local('fonts/overpass'), url('/assets/fonts/overpass/overpass-regular.ttf') format('ttf'),
+		local('fonts/overpass'), url('/assets/fonts/overpass/overpass-regular.woff2') format('woff2'),
+		local('fonts/overpass'), url('/assets/fonts/overpass/overpass-regular.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: block;
+}
+
+@font-face {
+	font-family: 'Overpass';
+	src:
+		local('fonts/overpass'), url('/assets/fonts/overpass/overpass-black.ttf') format('ttf'),
+		local('fonts/overpass'), url('/assets/fonts/overpass/overpass-black.woff2') format('woff2'),
+		local('fonts/overpass'), url('/assets/fonts/overpass/overpass-black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: block;
+}
+
+

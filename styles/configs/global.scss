@@ -1,0 +1,45 @@
+@import 'styles/configs/variables.scss';
+
+* {
+	color: $dark-blue;
+	font-family: 'Overpass', serif;
+	font-weight: 300;
+	box-sizing: border-box;
+	scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+	display: none;
+	-webkit-appearance: none;
+}
+
+.item-wrapper {
+	background-color: $pure-white;
+	border-radius: 8px;
+	overflow-y: scroll;
+}
+
+.item {
+	padding: 16px;
+	border-bottom: 1px solid $light-grey;
+	background-color: $pure-white;
+	display: flex;
+	flex-direction: row;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+
+	&:hover {
+		background-color: $light-grey ;
+	}
+
+	&:first-child {
+		border-radius: 5px 5px 0 0;
+	}
+
+	&:last-child {
+		border: none;
+		border-radius: 0 0 5px 5px;
+	}
+
+}
+
